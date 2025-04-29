@@ -1,13 +1,13 @@
-def add(a, b):
+def addition(a, b):
     return a + b
 
-def sub(a, b):
+def subtraction(a, b):
     return a - b
 
-def mult(a, b):
+def multiplication(a, b):
     return a * b
 
-def divi(a, b):
+def division(a, b):
     if b == 0:
         return "Error: Division by zero!"
     return a / b
@@ -24,13 +24,13 @@ try:
     Your choice: '''))
 
     if operator == 1:
-        print("Result:", add(value1, value2))
+        print("Result:", addition(value1, value2))
     elif operator == 2:
-        print("Result:", sub(value1, value2))
+        print("Result:", subtraction(value1, value2))
     elif operator == 3:
-        print("Result:", mult(value1, value2))
+        print("Result:", multiplication(value1, value2))
     elif operator == 4:
-        print("Result:", divi(value1, value2))
+        print("Result:", division(value1, value2))
     else:
         print("Invalid selection!")
 

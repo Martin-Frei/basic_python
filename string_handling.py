@@ -42,7 +42,30 @@ print('my Name is {0} and it is beautiful {1} '.format(word5,word2))
 
 
 
+print(word3)                        # hello here i am
+print(word3[:-1:2])                 # hlohr
+print(word3[::-2])                  # m  rholh
+print(word3[::2])                   # hlohr  m
+
+print(word3)
+string = word3.split()              # split automaticly default with spaces
+print(string)                       # String is now a list []
+joined= " ".join(string)            # String is now a string again
+print(joined)
+joined2 = "-".join(string)          # String is now a hiphen seperatetd string again
+print(joined2)
+joined3 = "*".join(string)          # String is now a asterix seperatetd string again
+print(joined3)
 
 
+print("Zoo" < "apple")              # True, weil "Z" < "a" im Unicode
+print("Apple" < "apple")            # True, weil "A" < "a"
+print("apple" < "applepie")         # True
 
 
+name = "Martin"
+age = 53
+print(f"My name is {name} and I am {age} years old.")
+# My name is Martin and I am 53 years old.
+print(f"In 10 years I will be {age + 10} years old.")
+# In 10 years I will be 63 years old.

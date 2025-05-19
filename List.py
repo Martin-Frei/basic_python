@@ -1,3 +1,6 @@
+# List is ordered and mutabel collection of different data types
+# List could also be a nested list 
+# List is index ordered
 #  Methoden für List []
 
 my_list = [ 'appel', 'orange','banana', 'kiwi' ]
@@ -18,8 +21,8 @@ my_list.extend(my_list2)
 print(my_list)  
 # Output ['appel', 'orange', 'pear', 'banana', 'kiwi', 'lemone', 'tomato', 'cucumber', 'leek', 'onion']
 
-
 # Entfernen
+
 my_list.remove('tomato')
 print(my_list)
 #Output ['appel', 'orange', 'pear', 'banana', 'kiwi', 'lemone', 'cucumber', 'leek', 'onion']
@@ -27,6 +30,12 @@ print(my_list)
 my_list.remove('cucumber')
 print(my_list)
 #Output ['appel', 'orange', 'pear', 'banana', 'kiwi', 'lemone', 'leek', 'onion']
+
+print('new List is here')
+list_new =['appel', 'orange', 'pear', 'banana', 'kiwi', 'lemone', 'cucumber', 'leek', 'onion','appel']
+print(list_new)
+list_new.remove('appel')
+print(list_new)
 
 my_list.pop(6)
 print(my_list)
@@ -177,3 +186,14 @@ print(quadrate)
 even_numbers = [x for x in range(1, 11) if x % 2 == 0]
 print(even_numbers)  
 # Output [2, 4, 6, 8, 10]    
+
+
+print(dir([]))
+print(dir())
+print(dir({}))
+
+# print(help([]))
+# print(help())
+print(help({}))
+
+import this

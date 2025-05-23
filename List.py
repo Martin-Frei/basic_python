@@ -1,7 +1,7 @@
 # List is ordered and mutabel collection of different data types
 # List could also be a nested list 
 # List is index ordered
-#  Methoden für List []
+#  Methoden for List []
 
 my_list = [ 'appel', 'orange','banana', 'kiwi' ]
 my_list2 = ['tomato','cucumber','leek', 'onion']
@@ -187,6 +187,7 @@ even_numbers = [x for x in range(1, 11) if x % 2 == 0]
 print(even_numbers)  
 # Output [2, 4, 6, 8, 10]    
 
+import this
 
 print(dir([]))
 print(dir())
@@ -196,4 +197,3 @@ print(dir({}))
 # print(help())
 print(help({}))
 
-import this

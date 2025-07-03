@@ -1,4 +1,3 @@
-# lets Start
 list  = []  #List
 student = [] 
  

@@ -9,7 +9,7 @@ def multiply(a,b):
 
 def divide(a,b):
     if b==0:
-        return "0 is not possible"
+        return "divide with 0 is not possible"
     else:
         return a/b
     
